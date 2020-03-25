@@ -4,51 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>친구 | 카카오 클론</title>
+    <link href="css/styles.css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/0a14441910.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-          <i class="fas fa-satellite-dish"></i>
-          <span class="status-bar__mobile name">LG U+</span>
-          <span class="status-bar__LTE">LTE</span>
-        </div>
-      <div class="status-bar__column">
-        <span class="status-bar__clock">오후 4:44</div>
+        <i class="fas fa-satellite-dish"></i>
+        <span class="status-bar__mobile name">LG U+</span>
+        <span class="status-bar__LTE">LTE</span>
       </div>
       <div class="status-bar__column">
-          <i class="fas fa-sync"></i>
-          <span class="status-bar__battery-level">100%</span>
-          <i class="fas fa-battery-full"></i>
-        </div>
+        <span class="status-bar__clock">오후 4:44</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-sync"></i>
+        <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
     </div>
     <div class="headr">
-        <div class="header__column">
-            <h2 class="header__title">친구</h2>
-        </div>
-        <div class="header__column">
-            <span class="header__icon">
-              <a href="find.html"><i class="fas fa-search"></i></a>
-            </span>
-            <span class="header__icon">
-                <a href="friends.html"><i class="far fa-user"></i></a>
-            </span>
-            <span class="header__icon">
-                <i class="fas fa-music"></i>
-            </span>
-            <span class="header__icon">
-                <a href="settings.html"><i class="fas fa-cog"></i></a>
-            </span>
-        </div>
+      <div class="header__column">
+        <h2 class="header__title">친구</h2>
+      </div>
+      <div class="header__column">
+        <span class="header__icon">
+          <a href="find.html"><i class="fas fa-search"></i></a>
+        </span>
+        <span class="header__icon">
+          <a href="friends.html"><i class="far fa-user"></i></a>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-music"></i>
+        </span>
+        <span class="header__icon">
+          <a href="settings.html"><i class="fas fa-cog"></i></a>
+        </span>
+      </div>
     </div>
     <main class="friends">
       <header class="frineds__list friend friend--lg">
         <div class="friend__column">
-          <img class="friend__avatar g-avatar" src="images/me.png" /> 
+          <img class="friend__avatar g-avatar" src="images/me.png" />
           <div class="friend__content">
             <sapn class="friend__name">
               오영일
@@ -65,66 +65,82 @@
           </span>
         </div>
       </header>
-        <div class="friends__list friend">
-          <h4 class="frined__title">
-            추천친구
-          </h4>
+      <div class="friends__list friend">
+        <h4 class="frined__title">
+          추천친구
+        </h4>
         <div class="friend__column">
-          <img class="friend__avatar g-avatar" src="images/smile.png" /> 
+          <img class="friend__avatar g-avatar" src="images/smile.png" />
           <div class="friend__content">
             <sapn class="friend__name">
               새로운 친구를 만나보세요!
             </sapn>
           </div>
-            <div class="friend__column">
-              <span class="friend__number">
-                80 >
-              </span>
-            </div>
+          <div class="friend__column">
+            <span class="friend__number">
+              80 >
+            </span>
+          </div>
         </div>
-        </div>
-        <div class="friends__list friend">
-          <h4 class="frined__title">
-            채널
-          </h4>
+      </div>
+      <div class="friends__list friend">
+        <h4 class="frined__title">
+          채널
+        </h4>
         <div class="friend__Column">
-          <img class="friend__avatar g-avatar" src="images/ch.png" /> 
+          <img class="friend__avatar g-avatar" src="images/ch.png" />
           <div class="friend__content">
             <sapn class="friend__name">
               채널
             </sapn>
           </div>
-            <div class="friend__column">
-              <span class="friend__number">
-                20 >
+          <div class="friend__column">
+            <span class="friend__number">
+              20 >
+            </span>
+          </div>
+        </div>
+      </div>
+      <ul class="friends__list friend">
+        <h4 class="friend__title">
+          친구 19
+        </h4>
+        <li class="friend__list">
+          <div class="friend__column">
+            <img class="friend__avatar g-avatar" src="images/세종.jpg" />
+            <div class="friend__content">
+              <span class="friend__name">
+                세종
+              </span>
+              <span class="friend__status">
+                대왕
               </span>
             </div>
-        </div>
-        </div>
-        <ul class="friends__list friend">
-          <h4 class="friend__title">
-            친구 19
-          </h4>
-          <li class="friend__list">
-            <div class="friend__column">
-              <img class="friend__avatar g-avatar" src="images/세종.jpg" />
-              <div class="friend__content">
-                <span class="friend__name">
-                  세종
-                </span>
-                <span class="friend__status">
-                  대왕
-                </span>
-              </div>
-            </div>
-          </li>
-        </ul>
+          </div>
+        </li>
+      </ul>
     </main>
     <nav class="nav">
-        <div class="nav__list"><a href="friends.html" class="nav__list-item"><i class="fas fa-user"></i></a></div>
-        <div class="nav__list"><a href="index.html" class="nav__list-item"><i class="far fa-comment"></i></a></div>
-        <div class="nav__list"><a href="find.html" class="nav__list-item"><i class="fas fa-search"></i></a></div>
-        <div class="nav__list"><a href="more.html" class="nav__list-item"><i class="fas fa-ellipsis-h"></i></a></div>
+      <div class="nav__list">
+        <a href="friends.html" class="nav__list-item"
+          ><i class="fas fa-user"></i
+        ></a>
+      </div>
+      <div class="nav__list">
+        <a href="index.html" class="nav__list-item"
+          ><i class="far fa-comment"></i
+        ></a>
+      </div>
+      <div class="nav__list">
+        <a href="find.html" class="nav__list-item"
+          ><i class="fas fa-search"></i
+        ></a>
+      </div>
+      <div class="nav__list">
+        <a href="more.html" class="nav__list-item"
+          ><i class="fas fa-ellipsis-h"></i
+        ></a>
+      </div>
     </nav>
   </body>
 </html>
