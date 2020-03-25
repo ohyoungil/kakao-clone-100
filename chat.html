@@ -4,98 +4,114 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>대화 | 카카오 클론</title>
+    <link href="css/styles.css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/0a14441910.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-          <i class="fas fa-satellite-dish"></i>
-          <span class="status-bar__mobile name">LG U+</span>
-          <span class="status-bar__LTE">LTE</span>
-        </div>
-      <div class="status-bar__column">
-        <span class="status-bar__clock">오후 4:44</div>
+        <i class="fas fa-satellite-dish"></i>
+        <span class="status-bar__mobile name">LG U+</span>
+        <span class="status-bar__LTE">LTE</span>
       </div>
       <div class="status-bar__column">
-          <i class="fas fa-sync"></i>
-          <span class="status-bar__battery-level">100%</span>
-          <i class="fas fa-battery-full"></i>
-        </div>
+        <span class="status-bar__clock">오후 4:44</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-sync"></i>
+        <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
     </div>
     <div class="headr">
-        <div class="header__arrow">
-            <a href="index.html"><i class="fas fa-arrow-left"></i></a>
-        </div>
-        <div class="header__column">
-            <h4 class="header__title">세종</h4>
-        </div>
-        <div class="header__column">
-            <span class="header__icon">
-              <a href="find.html"><i class="fas fa-search"></i></a>
-            </span>
-            <span class="header__icon">
-                <i class="fas fa-share-alt-square"></i>
-            </span>
-            <span class="header__icon">
-                <i class="fas fa-bars"></i>
-             </span>
-        </div>
+      <div class="header__arrow">
+        <a href="index.html"><i class="fas fa-arrow-left"></i></a>
+      </div>
+      <div class="header__column">
+        <h4 class="header__title">세종</h4>
+      </div>
+      <div class="header__column">
+        <span class="header__icon">
+          <a href="find.html"><i class="fas fa-search"></i></a>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-share-alt-square"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-bars"></i>
+        </span>
+      </div>
     </div>
     <main class="chat">
-        <ul class="cath__meassage">
-            <li class="chat__message message-in">
-                <span class="message-in image">
-                    <img src="images/세종.jpg" class="g-avatar" />
-                </span>
-                <div class="chat__message__column message-in">
-                <span class="message name">
-                    세종
-                </span>
-                <span class="message-in bubble">
-                    오늘 날씨 어때?
-                </span>
-                <span class="message-in timestamp">
-                    오전 6:06
-                </span>
-            </div>
-            </li>
-            <li class="chat__message message-out">
-                <div class="chat__message__colunm message-out">
-                <span class="message-out bubble">
-                    시원합니다
-                </span>
-                <span class="message-out timestamp">
-                    오전 6:07
-                </span>
-            </div>
-            </li>
-        </ul>
+      <ul class="cath__meassage">
+        <li class="chat__message message-in">
+          <span class="message-in image">
+            <img src="images/세종.jpg" class="g-avatar" />
+          </span>
+          <div class="chat__message__column message-in">
+            <span class="message name">
+              세종
+            </span>
+            <span class="message-in bubble">
+              오늘 날씨 어때?
+            </span>
+            <span class="message-in timestamp">
+              오전 6:06
+            </span>
+          </div>
+        </li>
+        <li class="chat__message message-out">
+          <div class="chat__message__colunm message-out">
+            <span class="message-out bubble">
+              시원합니다
+            </span>
+            <span class="message-out timestamp">
+              오전 6:07
+            </span>
+          </div>
+        </li>
+      </ul>
     </main>
     <div class="chat__message">
-    <div class="chat__message cloumn">
+      <div class="chat__message cloumn">
         <i class="far fa-plus-square"></i>
-    </div>
-    <div class="chat__message cloumn">
-        <input type="text">
-    </div>
-    <div class="chat__message cloumn">
+      </div>
+      <div class="chat__message cloumn">
+        <input type="text" />
+      </div>
+      <div class="chat__message cloumn">
         <span class="chat__message icon">
-            <i class="far fa-smile"></i>
+          <i class="far fa-smile"></i>
         </span>
         <span class="chat__message icon">
-            <i class="fas fa-hashtag"></i>
+          <i class="fas fa-hashtag"></i>
         </span>
+      </div>
     </div>
-</div>
     <nav class="nav">
-        <div class="nav__list"><a href="friends.html" class="nav__list-item"><i class="far fa-user"></i></a></div>
-        <div class="nav__list"><a href="index.html" class="nav__list-item"><i class="far fa-comment"></i></a></div>
-        <div class="nav__list"><a href="find.html" class="nav__list-item"><i class="fas fa-search"></i></a></div>
-        <div class="nav__list"><a href="more.html" class="nav__list-item"><i class="fas fa-ellipsis-h"></i></a></div>
+      <div class="nav__list">
+        <a href="friends.html" class="nav__list-item"
+          ><i class="far fa-user"></i
+        ></a>
+      </div>
+      <div class="nav__list">
+        <a href="index.html" class="nav__list-item"
+          ><i class="far fa-comment"></i
+        ></a>
+      </div>
+      <div class="nav__list">
+        <a href="find.html" class="nav__list-item"
+          ><i class="fas fa-search"></i
+        ></a>
+      </div>
+      <div class="nav__list">
+        <a href="more.html" class="nav__list-item"
+          ><i class="fas fa-ellipsis-h"></i
+        ></a>
+      </div>
     </nav>
   </body>
 </html>
