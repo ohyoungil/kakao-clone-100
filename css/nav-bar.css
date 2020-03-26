@@ -12,3 +12,23 @@
   display: flex;
   justify-content: space-between;
 }
+
+.nav .nav__list-item {
+  position: relative;
+  font-size: 20px;
+}
+
+.nav__list-item .nav__badge {
+  position: absolute;
+  color: white;
+  font-size: 9px;
+  background-color: #dc5d46;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: -5px;
+  top: -4px;
+}
