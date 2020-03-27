@@ -3,6 +3,8 @@
 @import "status-bar.css";
 @import "header.css";
 @import "nav-bar.css";
+@import "avatar.css";
+@import "friend.css";
 
 * {
   box-sizing: border-box;
