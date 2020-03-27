@@ -3,3 +3,33 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.friend .friend__column {
+  display: flex;
+  align-items: center;
+}
+
+.friend .g-avatar,
+.friend .m-avatar {
+  margin-right: 12px;
+}
+
+.friend .friend__name {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.friend .friend__status {
+  font-size: 11px;
+  opacity: 0.6;
+}
+
+.friend .friend__bottom-text {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.friend .friend__timestamp {
+  font-size: 12px;
+  opacity: 0.6;
+}
