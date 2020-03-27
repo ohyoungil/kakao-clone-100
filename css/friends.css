@@ -1,0 +1,31 @@
+.friends .friends__title {
+  padding: 10px 0px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border-top: 1px solid #f7f7f7;
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+.friends .friend__number {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.friends .friend__music {
+  opacity: 0.7;
+  border: 2px solid #52e084;
+  border-radius: 15px;
+  padding-bottom: 5px;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+.friends .friend__music span {
+  margin-right: 7px;
+  font-size: 10px;
+}
+
+.friends .friend__music i {
+  font-size: 9px;
+}
