@@ -1,10 +1,17 @@
 .friend--lg .g-avatar {
   width: 60px;
   height: 60px;
+  border-radius: 25px;
 }
 
 .g-avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 19px;
+}
+
+.m-avatar {
   width: 50px;
   height: 50px;
-  border-radius: 23px;
+  border-radius: 22px;
 }
