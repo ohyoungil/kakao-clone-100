@@ -5,6 +5,7 @@
 @import "nav-bar.css";
 @import "avatar.css";
 @import "friend.css";
+@import "friends.css";
 
 * {
   box-sizing: border-box;
