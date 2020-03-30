@@ -13,11 +13,11 @@
   align-items: center;
 }
 
-.btn i {
+.find .btn i {
   font-size: 19px;
 }
 
-.btn .btn__title {
+.find .btn__title {
   margin: 15px 0px;
   display: block;
   font-size: 13px;
