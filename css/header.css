@@ -4,6 +4,7 @@
   align-items: center;
   margin-bottom: 30px;
   cursor: pointer;
+  padding-bottom: 10px;
 }
 
 .header .header__title {
