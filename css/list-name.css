@@ -1,0 +1,22 @@
+.js-form,
+.js-greetings {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.js-form input {
+  width: 200px;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
+
+.js-greetings {
+  color: black;
+}
