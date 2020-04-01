@@ -3,12 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>리스트</title>
+    <title>리스트 | 카카오 클론</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/0a14441910.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div class="js-clock">
-      <h2 class="clock-title"></h2>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <i class="fas fa-satellite-dish"></i>
+        <span class="status-bar__mobile name">LG U+</span>
+        <span class="status-bar__LTE">LTE</span>
+      </div>
+      <div class="status-bar_column js-clock">
+        <span class="status-bar__clock"></span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-sync"></i>
+        <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
     </div>
+    <form class="js-form form">
+      <input class="text" placeholder="이름을 입력해주세요" />
+    </form>
+    <h4 class="js-greetings greetings"></h4>
+    <form class="js-toDoForm">
+      <input class="text" placeholder="오늘 할 일을 입력하세요" />
+    </form>
+    <ul class="js-toDoList"></ul>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="friends.html" class="nav__list-link"
+            ><i class="far fa-user"></i
+          ></a>
+        </li>
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__list-link">
+            <i class="far fa-comment"></i
+          ></a>
+        </li>
+        <li class="nav__list-item">
+          <a href="find.html" class="nav__list-link"
+            ><i class="fas fa-search"></i
+          ></a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link"
+            ><i class="fas fa-ellipsis-h"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
     <script src="clock.js"></script>
+    <script src="name.js"></script>
+    <script src="todo.js"></script>
   </body>
 </html>
