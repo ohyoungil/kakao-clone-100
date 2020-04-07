@@ -32,3 +32,18 @@
   right: -5px;
   top: -4px;
 }
+
+@keyframes showNavBar {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+nav {
+  animation: showNavBar 0.5s ease-out;
+}
