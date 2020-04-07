@@ -11,6 +11,7 @@
 @import "settings.css";
 @import "chat.css";
 @import "list-name.css";
+@import "js-paint.css";
 
 * {
   box-sizing: border-box;
@@ -21,7 +22,7 @@ body {
   font-size: 16px;
   color: #202020;
   padding: 10px 20px;
-  height: 1000px;
+  height: 800px;
 }
 
 a {
