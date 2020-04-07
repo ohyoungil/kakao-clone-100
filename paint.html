@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>페인팅 | 카카오 클론</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/0a14441910.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="js-body">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <i class="fas fa-satellite-dish"></i>
+        <span class="status-bar__mobile name">LG U+</span>
+        <span class="status-bar__LTE">LTE</span>
+      </div>
+      <div class="status-bar__column js-clock">
+        <span class="status-bar__clock"></span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-sync"></i>
+        <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+    <div class="jsPaint js">
+      <canvas id="jsCanvas" class="js__canvas"></canvas>
+      <div class="controls">
+        <div class="controls__btn btn">
+          <div class="btn__fill">색칠하기</div>
+          <div class="btn__Save">저장하기</div>
+        </div>
+        <div class="controls__colors">
+          <div class="control__color" style="background-color:#2d3436"></div>
+          <div class="control__color" style="background-color:#d63031"></div>
+          <div class="control__color" style="background-color:#e84393"></div>
+          <div class="control__color" style="background-color:#fd79a8"></div>
+          <div class="control__color" style="background-color:#fdcb6e"></div>
+          <div class="control__color" style="background-color:#00b894"></div>
+          <div class="control__color" style="background-color:#00cec9"></div>
+          <div class="control__color" style="background-color:#81ecec"></div>
+          <div class="control__color" style="background-color:#0984e3"></div>
+          <div class="control__color" style="background-color:#6c5ce7"></div>
+          <div class="control__color" style="background-color:#a29bfe"></div>
+          <div class="control__color" style="background-color:white"></div>
+        </div>
+      </div>
+    </div>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="friends.html" class="nav__list-link"
+            ><i class="far fa-user"></i
+          ></a>
+        </li>
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__list-link"
+            ><i class="far fa-comment"></i
+          ></a>
+        </li>
+        <li class="nav__list-item">
+          <a href="find.html" class="nav__list-link"
+            ><i class="fas fa-search"></i
+          ></a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link"
+            ><i class="fas fa-ellipsis-h"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <script src="painting.js"></script>
+  </body>
+</html>
