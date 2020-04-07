@@ -12,6 +12,7 @@
 @import "chat.css";
 @import "list-name.css";
 @import "js-paint.css";
+@import "mobile.css";
 
 * {
   box-sizing: border-box;
