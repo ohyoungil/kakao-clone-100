@@ -1,0 +1,47 @@
+.js-body {
+  background-color: #f6f9fc;
+}
+
+.jsPaint {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.js__canvas {
+  background-color: white;
+  width: 400px;
+  height: 500px;
+  border-radius: 15px;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+.controls {
+  padding-top: 30px;
+}
+
+.controls__colors {
+  display: flex;
+}
+
+.controls__btn {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.btn .btn__fill {
+  font-size: 5px;
+}
+
+.controls__colors .control__color {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3);
+}
