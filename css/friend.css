@@ -33,7 +33,66 @@
   opacity: 0.6;
 }
 
+.friend__timestamp-badge,
 .friend .friend__timestamp {
   font-size: 12px;
-  opacity: 0.6;
+  color: #7f8fa6;
+}
+
+.friend__column__group {
+  position: relative;
+}
+
+.friend__column__group .group-0 {
+  margin-top: 13px;
+  margin-left: -3px;
+  width: 30px;
+  height: 30px;
+  border-radius: 13px;
+  border: 2px solid white;
+}
+
+.friend__column__group .group-1 {
+  position: absolute;
+  top: 13px;
+  left: 22px;
+  width: 30px;
+  height: 30px;
+  border-radius: 13px;
+  border: 2px solid white;
+}
+
+.friend__column__group .group-2 {
+  position: absolute;
+  top: -5px;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 13px;
+  border: 2px solid white;
+}
+
+.group__content {
+  margin-left: 23px;
+}
+
+.friend__column .friend__timestamp-badge {
+  position: relative;
+  top: -15px;
+}
+
+.friend__timestamp-badge .badge__badge {
+  position: absolute;
+  color: white;
+  font-size: 9px;
+  background-color: #dc5d46;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 15px;
+  right: 4px;
+  opacity: 1;
 }
