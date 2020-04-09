@@ -1,11 +1,19 @@
 .js-form,
-.js-greetings {
+.js-toDoForm {
   text-align: center;
   padding-top: 30px;
 }
 
 .js-form input {
   width: 200px;
+  border: ;
+  text-align: center;
+}
+
+.js-toDoForm input {
+  width: 300px;
+  text-align: center;
+  border: ;
 }
 
 .form,
