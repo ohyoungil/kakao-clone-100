@@ -1,11 +1,12 @@
 .js-form,
-.js-toDoForm {
+.js-toDoForm,
+.js-greetings {
   text-align: center;
   padding-top: 30px;
 }
 
 .js-form input {
-  width: 200px;
+  width: 300px;
   border: ;
   text-align: center;
 }
@@ -27,4 +28,16 @@
 
 .js-greetings {
   color: black;
+}
+
+.js-toDoList {
+  padding-top: 30px;
+}
+
+.js-toDoList button {
+  margin-bottom: 10px;
+}
+
+.js-toDoList span {
+  margin-left: 10px;
 }
